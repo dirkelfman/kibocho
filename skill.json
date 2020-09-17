@@ -1,0 +1,100 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "kiboko",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetInventoryUpdatesIntent",
+                    "slots": [],
+                    "samples": [
+                        "How does my inventory look",
+                        "Inventory updates",
+                        "Inventory"
+                    ]
+                },
+                {
+                    "name": "GetOrdersThisMonthIntent",
+                    "slots": [],
+                    "samples": [
+                        "orders this month",
+                        "monthly order summary",
+                        "order summary for this month"
+                    ]
+                },
+                {
+                    "name": "GetOrdersThisWeekIntent",
+                    "slots": [],
+                    "samples": [
+                        "This weeks orders",
+                        "Orders this week",
+                        "Order summary for this week"
+                    ]
+                },
+                {
+                    "name": "GetOrdersTodayIntent",
+                    "slots": [],
+                    "samples": [
+                        "Orders today",
+                        "Todays Orders",
+                        "Orders for today",
+                        "Orders summary for today"
+                    ]
+                },
+                {
+                    "name": "GetPopularProductThisMonthIntent",
+                    "slots": [],
+                    "samples": [
+                        "popular product this month",
+                        "popular products this month"
+                    ]
+                },
+                {
+                    "name": "GetPopularProductThisWeekIntent",
+                    "slots": [],
+                    "samples": [
+                        "popular product this week"
+                    ]
+                },
+                {
+                    "name": "GetPopularProductTodayIntent",
+                    "slots": [],
+                    "samples": [
+                        "Popular product for today",
+                        "Todays popular product",
+                        "Popular product"
+                    ]
+                },
+                {
+                    "name": "GetTodaysReportIntent",
+                    "slots": [],
+                    "samples": [
+                        "Todays report",
+                        "Report",
+                        "Whats my report"
+                    ]
+                },
+                {
+                    "name": "TellAJokeIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell a joke",
+                        "who is the most handsome person in this room"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
